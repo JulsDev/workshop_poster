@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "poster",
   "version": "1.0.0",
-  "description": "boilerplate for project",
+  "description": "workshop poster",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",

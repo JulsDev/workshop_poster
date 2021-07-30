@@ -1,6 +1,6 @@
 {
-  "short_name": "boilerplate",
-  "name": "boilerplate for project",
+  "short_name": "workshop poster",
+  "name": "workshop poster",
   "start_url": "./",
   "display": "standalone",
   "theme_color": "#000000",

@@ -1,4 +1,4 @@
-## boilerplate for project
+## poster
 
 npm i
 
