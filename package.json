@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "workshop poster",
   "main": "index.js",
+  "homepage": "https://julsdev.github.io/workshop_poster/index.html",
   "scripts": {
     "clean": "rm -rf ./build",
     "lint": "lint-staged",
@@ -11,7 +12,9 @@
     "test:coverage": "npx jest --coverage",
     "start": "env NODE_ENV=development webpack-dev-server",
     "dev": "env NODE_ENV=development webpack --mode development",
-    "build": "env NODE_ENV=production webpack --mode production"
+    "build": "env NODE_ENV=production webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Aseeva Julia (JulsDev)",
   "license": "ISC",
@@ -61,6 +64,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^4.5.2",
     "husky": "^4.3.0",
     "identity-obj-proxy": "^3.0.0",
